@@ -26,7 +26,10 @@ class String
     end
   end
 
+# "one. two. three?"
+
   def count_sentences
     self 
+    binding.pry 
   end
 end
