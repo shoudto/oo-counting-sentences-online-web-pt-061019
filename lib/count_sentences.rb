@@ -22,11 +22,12 @@ class String
     if self.end_with?("!")
       true
     else
-      false 
+      false
     end
   end
 
   def count_sentences
-
+    self
+    binding.pry 
   end
 end
