@@ -6,7 +6,7 @@ class String
     if self.end_with?(".")
       true
     else
-      false 
+      false
     end
   end
 
@@ -15,7 +15,7 @@ class String
       true 
     else
       false
-    end 
+    end
   end
 
   def exclamation?
