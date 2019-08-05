@@ -29,7 +29,6 @@ class String
 # "one. two. three?"
 
   def count_sentences
-    self
-    binding.pry 
+    self.split(/\.|\?|\!/).delete_if {|x| x == ""}.count 
   end
 end
